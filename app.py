@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from google.generativeai import GenerativeModel
 import google.generativeai as genai
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD7cb1nBG4B6a6xJnz2Tuw-Cylgu9yO6Io"
+os.environ["GOOGLE_API_KEY"] = "your-api-key"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 
